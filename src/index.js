@@ -20,7 +20,10 @@ const createWindow = () => {
   mainWindow.loadFile(path.join(__dirname, 'index.html'));
 
   // Open the DevTools.
-  mainWindow.webContents.openDevTools();
+  // mainWindow.webContents.openDevTools();
+
+  // Remove menu bar
+  mainWindow.removeMenu();
 };
 
 // This method will be called when Electron has finished
