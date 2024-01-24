@@ -15,7 +15,8 @@
   "author": "Sencyy",
   "license": "GPL-3.0-or-later",
   "dependencies": {
-    "electron-squirrel-startup": "^1.0.0"
+    "electron-squirrel-startup": "^1.0.0",
+    "mathjs": "^12.3.0"
   },
   "devDependencies": {
     "@electron-forge/cli": "^6.4.2",
